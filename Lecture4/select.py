@@ -13,6 +13,9 @@ def select(nums, k):
         return select(right, k-len(left)-1)
 
 
+# need to be improved: getPivot
+
+
 def getPivot(nums):
     return round(len(nums)/2)
 
