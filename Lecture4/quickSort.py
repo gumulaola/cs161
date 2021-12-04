@@ -8,8 +8,8 @@ def quickSort(nums):
     left, right, pivot = partition(nums, p)
     left = quickSort(left)
     right = quickSort(right)
-    left = list(left)
-    right = list(right)
+    # left = list(left)
+    # right = list(right)
     left.append(pivot)
     left.extend(right)
     return left
